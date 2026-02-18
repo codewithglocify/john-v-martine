@@ -112,7 +112,7 @@ export default function Header() {
                                 className="flex items-center justify-center gap-2 rounded-[28.44px] border border-white/25 bg-zinc-900/40 px-4 py-3 text-base font-bold text-white transition-colors hover:bg-zinc-800/50 hover:text-primary"
                             >
                                 <ContactIcon />
-                                Contact Us
+                                Contact Us 
                             </Link>
                         </div>
                     </nav>
