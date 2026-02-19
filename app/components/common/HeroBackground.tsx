@@ -9,7 +9,7 @@ interface HeroBackgroundProps {
 
 export default function HeroBackground({
   className = '',
-  src = '/images/home/hero.png',
+  src = '/images/home/bg-hero.png',
   alt = 'Hero Background',
   bgColor = 'var(--bg)',
 }: HeroBackgroundProps) {
