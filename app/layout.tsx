@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Manrope, Geist_Mono, Inter_Tight } from "next/font/google";
+import { Manrope, Geist_Mono, Inter_Tight, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -19,6 +19,11 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const playfairDisplay = Playfair_Display({
+  variable: "--font-playfair-display",
+  subsets: ["latin"],
+});
+
 export const metadata: Metadata = {
   title: "John V Martine",
   description: "John V Martine",
@@ -31,7 +36,7 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <body className={`${manrope.variable} ${geistMono.variable} ${interTight.variable} antialiased`}>
+      <body className={`font-sans ${manrope.variable} ${geistMono.variable} ${interTight.variable} ${playfairDisplay.variable} antialiased`}>
         <div className="flex min-h-screen flex-col">
           <Header />
           <main className="flex-1">{children}</main>
