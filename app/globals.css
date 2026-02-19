@@ -9,6 +9,8 @@
   --accent: #3B6B89;
   --background: var(--bg);
   --foreground: var(--text);
+  /* Content width – one place for header, hero, footer */
+  --content-max-w: 1440px;
 }
 
 @theme inline {
@@ -22,6 +24,8 @@
   --font-sans: var(--font-manrope);
   --font-mono: var(--font-geist-mono);
   --font-family-logo: var(--font-inter-tight), sans-serif;
+  --font-family-playfair: var(--font-playfair-display), serif;
+  --width-content: var(--content-max-w);
 }
 
 body {
