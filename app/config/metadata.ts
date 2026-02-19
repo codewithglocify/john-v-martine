@@ -15,3 +15,9 @@ export const pricingMetadata: Metadata = {
   description: 'Pricing',
   ...defaultMetadata,
 };
+
+export const aboutMetadata: Metadata = {
+  title: 'About Us - John V Martine',
+  description: 'About Us',
+  ...defaultMetadata,
+};
