@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { ROUTES } from './config/env';
+import { ROUTES } from '@/config/env';
 
 export default function NotFound() {
   return (
