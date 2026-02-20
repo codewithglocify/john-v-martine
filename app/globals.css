@@ -7,10 +7,11 @@
   --bg: #1D3645;
   --text: #FFFFFF;
   --accent: #3B6B89;
+  --desc: #5B5B5B;
   --background: var(--bg);
   --foreground: var(--text);
   /* Content width – one place for header, hero, footer */
-  --content-max-w: 1440px;
+  --content-max-w: 120px;
 }
 
 @theme inline {
@@ -19,6 +20,7 @@
   --color-bg: var(--bg);
   --color-text: var(--text);
   --color-accent: var(--accent);
+  --color-desc: var(--desc);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-manrope);
@@ -33,3 +35,4 @@ body {
   color: var(--foreground);
   font-family: var(--font-manrope), sans-serif;
 }
+
